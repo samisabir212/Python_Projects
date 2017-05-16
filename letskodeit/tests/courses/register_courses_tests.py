@@ -4,7 +4,7 @@ import pytest
 from pages.courses.register_courses_page import RegisterCoursesPage
 from pages.Home.login_page import LoginPage
 
-@pytest.mark.usefixtures("oneTimeSetup", "setUp")
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class RegisterCoursesTests(unittest.TestCase):
 
     @pytest.fixture(autouse=True)

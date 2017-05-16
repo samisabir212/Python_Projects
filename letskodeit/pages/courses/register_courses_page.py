@@ -22,7 +22,7 @@ class RegisterCoursesPage(BasePage):
     # declare locators for elements
 
      # xpath
-    _allCourses_Button = ".//div[@class='collapse navbar-collapse navbar-header-collapse']//a[contains(text(), ' All Courses')]"
+    _allCourses_Button = ".//ul[@class='nav navbar-nav navbar-right']//a[contains(text(),'All Courses')]"
 
     # by ID
     _search_field = "search-courses"
@@ -90,7 +90,7 @@ class RegisterCoursesPage(BasePage):
     # -------------------------------------------------
 
     def javaScriptCourseAfterLogin(self,name):
-        self.clickAllCourses()
+        # self.clickAllCourses()
         time.sleep(2)
         self.enter_search_Course(name)
         time.sleep(2)
