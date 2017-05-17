@@ -96,7 +96,7 @@ class RegisterCoursesPage(BasePage):
         time.sleep(2)
         self.clickCourse()
         time.sleep(2)
-        result1 = self.verifyTitle("javascript for beginners")
+        result1 = self.verifyTitle("Javascript for beginners")
         self.s.mark(result1, "Title Verified")
         time.sleep(2)
         self.clickEnrollSubmitButton()

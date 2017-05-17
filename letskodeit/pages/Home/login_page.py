@@ -39,7 +39,7 @@ class LoginPage(BasePage):
 
     # ONLY Methods with Actions Performed on the Elements
     def clickLoginLink(self):
-        self.elementClick(self._login_link,locatorType="link")
+        self.elementClick(locator=self._login_link,locatorType="link")
 
     def enterEmail(self,email):
         self.sendKeys(email, self._email_field)

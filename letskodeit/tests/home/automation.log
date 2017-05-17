@@ -133,3 +133,30 @@
 05/16/2017 10:47:27 AM - LoginPage - INFO: Element Found
 05/16/2017 10:47:27 AM - status - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
 05/16/2017 10:47:27 AM - status - INFO: test_validLogin ### TEST SUCCESSFUL
+05/16/2017 04:42:52 PM - LoginPage - INFO: Element found with locator: Login and  locatorType: link
+05/16/2017 04:42:52 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+05/16/2017 04:42:54 PM - LoginPage - INFO: Element found with locator: user_email and  locatorType: id
+05/16/2017 04:42:54 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+05/16/2017 04:42:56 PM - LoginPage - INFO: Element found with locator: user_password and  locatorType: id
+05/16/2017 04:42:56 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+05/16/2017 04:42:58 PM - LoginPage - INFO: Element found with locator: commit and  locatorType: name
+05/16/2017 04:42:58 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+05/16/2017 04:42:59 PM - LoginPage - INFO: Element found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+05/16/2017 04:42:59 PM - LoginPage - INFO: Element Found
+05/16/2017 04:42:59 PM - LoginPage - INFO: Element found with locator: Login and  locatorType: link
+05/16/2017 04:42:59 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+05/16/2017 04:43:01 PM - LoginPage - INFO: Element found with locator: user_email and  locatorType: id
+05/16/2017 04:43:02 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+05/16/2017 04:43:04 PM - LoginPage - INFO: Element found with locator: user_password and  locatorType: id
+05/16/2017 04:43:04 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+05/16/2017 04:43:06 PM - LoginPage - INFO: Element found with locator: commit and  locatorType: name
+05/16/2017 04:43:06 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+05/16/2017 04:43:06 PM - Util - INFO: Actual Text From Application Web UI --> :: Let's Kode It
+05/16/2017 04:43:06 PM - Util - INFO: Expected Text From Application Web UI --> :: google
+05/16/2017 04:43:06 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+05/16/2017 04:43:06 PM - status - ERROR: ### VERIFICATION FAILED :: + Title Verified
+05/16/2017 04:43:06 PM - status - INFO: Screenshot save to directory: /home/sami/Desktop/Python_Projects/letskodeit/base/../screenshots/Title Verified.1494967386118.png
+05/16/2017 04:43:07 PM - LoginPage - INFO: Element found with locator: //*[@id='navbar']//span[text()='User Settings'] and  locatorType: xpath
+05/16/2017 04:43:07 PM - LoginPage - INFO: Element Found
+05/16/2017 04:43:07 PM - status - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+05/16/2017 04:43:07 PM - status - INFO: test_validLogin ### TEST SUCCESSFUL

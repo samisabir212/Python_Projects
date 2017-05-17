@@ -206,3 +206,7 @@ Full stack:
 1494946028524	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
 1494946031380	Marionette	INFO	Listening on port 45657
 1494946031443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494967366878	geckodriver	INFO	Listening on 127.0.0.1:49651
+1494967367936	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1494967370763	Marionette	INFO	Listening on port 44585
+1494967370851	Marionette	WARN	TLS certificate errors will be ignored for this session
